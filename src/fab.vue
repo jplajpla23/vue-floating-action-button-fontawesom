@@ -9,16 +9,11 @@
           :class="'fab-size-' + size"
           :style="fabClass">
         <transition :name="computedTransitionName">
-          <i
-          v-if="iconType === 'MaterialDesign'"
-          data-outside="true"
-          :key="activeIcon === icon ? icon : active"
-          :class="{ 'fab-active' : active }"
-          class="vue-fab-material-icons material-icons">{{activeIcon === icon ? icon : active ? activeIcon : icon}}</i>
+         
         </transition>
-        <i v-if="iconType === 'iconfont'"
+        <i 
            @click.stop="openMenu"
-           class="icons iconfont vue-fab-material-icons vue-fab-iconfont-icons"
+           class="JPLA_Icon"
            style="font-size: 15px"
            :class="[active ? 'fab-active' : '', icon ]"
            data-outside="true">
@@ -57,7 +52,7 @@ export default {
     },
     iconType: {
       type: String,
-      default: 'MaterialDesign'
+      default: 'FontAwesome'
     },
     shadow: {
       type: Boolean,

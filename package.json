@@ -1,5 +1,5 @@
 {
-  "name": "vue-float-action-button",
+  "name": "vue-float-action-button-fontawesom",
   "version": "0.7.9",
   "description": "vue, float action button",
   "main": "dist/vue-fab.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a62527776a/vue-floating-action-button.git"
+    "url": "git+https://github.com/jplajpla23/vue-floating-action-button-fontawesom.git"
   },
   "keywords": [
     "vue",
@@ -22,12 +22,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "chenyu <a13868300128a@gmail.com>",
-  "license": "ISC",
+  "author": "JPLA",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/a62527776a/vue-floating-action-button/issues"
+    "url": "https://github.com/jplajpla23/vue-floating-action-button-fontawesom/issues"
   },
-  "homepage": "https://github.com/a62527776a/vue-floating-action-button#readme",
+  "homepage": "https://github.com/jplajpla23/vue-floating-action-button-fontawesom#readme",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
     "babel": "^6.23.0",

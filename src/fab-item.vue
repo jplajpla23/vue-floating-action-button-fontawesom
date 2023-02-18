@@ -15,11 +15,7 @@
           </slot>
         </div>
         <template v-if="!$slots.default">
-          <i v-if="$parent.iconType === 'MaterialDesign'" class="material-icons vue-fab-material-icons"
-            :style="{
-              color: color ? 'white' : '#999'
-          }">{{icon}}</i>
-            <i v-else class="vue-fab-material-icons iconfont" :class="icon" style="font-size: 10px" :style="{
+            <i  class="" :class="icon" style="font-size: 10px" :style="{
                 color: color ? 'white' : '#999'
           }">
             </i>
@@ -45,7 +41,7 @@ export default {
     },
     icon: {
       type: String,
-      default: 'add'
+      default: 'fa-solid fa-plus'
     },
     color: {
       type: String,
@@ -85,7 +81,7 @@ export default {
         defaultY = 50 + this.idx * this.$parent.globalOptions.spacing + 'px';
         aliveY = 'translate3D(0, ' + ((this.idx + 1) * this.$parent.globalOptions.spacing + 7) + 'px, 0)'
       } else {
-        console.error('unfoldDirection 参数异常');
+        console.error('unfoldDirection ;) - JPLA');
       }
       let animateModel = {
         default: {
